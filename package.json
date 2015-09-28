@@ -1,6 +1,6 @@
 {
   "name": "merge-all",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Merge all Objects in an Array",
   "main": "src/index.js",
   "scripts": {
