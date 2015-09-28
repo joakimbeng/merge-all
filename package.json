@@ -1,0 +1,34 @@
+{
+  "name": "merge-all",
+  "version": "0.1.0",
+  "description": "Merge all Objects in an Array",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "pretest": "npm run -s lint",
+    "test": "ava"
+  },
+  "keywords": [
+    "merge",
+    "array",
+    "objects",
+    "collection",
+    "merge all",
+    "assign",
+    "extend"
+  ],
+  "author": {
+    "name": "Joakim Carlstein",
+    "email": "joakim@klei.se"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.2.0",
+    "xo": "^0.9.0"
+  },
+  "repository": "joakimbeng/merge-all",
+  "dependencies": {
+    "arrify": "^1.0.0",
+    "object-assign": "^4.0.1"
+  }
+}
